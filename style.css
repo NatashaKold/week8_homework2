@@ -1,1 +1,23 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 5vw 2vh;
+}
+
+.button{
+    background-color: #5222D0;
+    border-radius: 25px;
+    padding: 1em;
+    text-align: center;
+}

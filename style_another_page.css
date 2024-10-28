@@ -12,6 +12,7 @@ body{
 
 h1, h2{
     font-family: 'Intro Demo', sans-serif;
+    text-transform: capitalize;
 }
 
 a{
@@ -29,6 +30,7 @@ a{
     border-radius: 50px;
     padding: 1em;
     text-align: center;
+    text-transform: capitalize;
     color: white;
     cursor: pointer;
 }

@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Roboto Slab", serif;
+    font-weight: lighter;
+}
+
+h1, h2{
+    font-family: 'Intro Demo', sans-serif;
+}
+
 a{
     text-decoration: none;
 }
@@ -37,9 +46,9 @@ a{
 }
 
 .main__title{
-    padding: 7vw;
-    font-size: 2.5rem;
-    font-weight: bold;
+    padding: 7vh 7vw 0;
+    font-size: 3.75rem;
+    font-weight:normal;
 }
 .main__container{
     padding: 5vw;
@@ -66,12 +75,12 @@ main__container__card__img{
 
 .main__container__card__title{
 padding-top: 1.5rem;
-font-size: 1.2em;
-font-weight: bold;
+font-size: 2rem;
+font-weight: normal;
 }
 
 .main__container__card__text{
-font-size: 1em;
+font-size: 1.2rem;
 padding: 1em 0;
 }
 
@@ -111,4 +120,3 @@ li{
 li:hover{
     font-weight: 900;
 }
-

@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+.container{
+    font-family: "Roboto Slab", serif;
+    font-weight: lighter;
+}
+
+h1{
+    font-family: 'Intro Demo', sans-serif;
+}
+
 a{
     text-decoration: none;
 }
@@ -54,20 +63,20 @@ a{
     height: 1em;
 }
 
-.info_block{
+.info-block{
     display: flex;
     flex-direction: column;
     padding: 10vh 0 10vh 7vw;
     gap: 10vh;
 }
 
-.info_block__title{
+.info-block__title{
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.info_block__text{
+.info-block__text{
     font-size: 1.3rem;
     font-style:normal;
     padding: 0 4vw 0 0;
